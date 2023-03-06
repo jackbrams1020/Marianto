@@ -1,0 +1,2 @@
+radio1 = Radiobutton(app, text=name, value=name, \
+                     variable=relStatus, command=check)
