@@ -1,0 +1,5 @@
+#pivalar ari
+def valaar(result):
+    i, j, new_matr = result
+    corr_matrix[i, j] = new_matr[0,1]
+    corr_matrix[j, i] = new_matr[1,0]
